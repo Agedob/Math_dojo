@@ -14,7 +14,6 @@ class MathDojo(object):
                 print self.var
         return self
     def subtract(self, *arg):
-        temp = 0 
         for i in arg:
             print i,
         if type(i) == list or type(i) == tuple:
